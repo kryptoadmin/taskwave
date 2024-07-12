@@ -1,6 +1,6 @@
-# Task Management Application
+# Task Wave
 
-A task management application built using Python, Django 5, gRPC, PostgreSQL, and Docker. This application follows the Model-View-Template (MVT) architecture and includes features like task prioritization, status updates, and real-time notifications. It uses Material Design for the templates to achieve a modern look.
+Task Wave is a task management application built using Python, Django 5, gRPC, PostgreSQL, and Docker. This application follows the Model-View-Template (MVT) architecture and includes features like task prioritization, status updates, and real-time notifications. It uses Material Design for the templates to achieve a modern look.
 
 ## Features
 
@@ -107,3 +107,14 @@ python grpc_server.py
 ### 9. Access the Application
 
 Open your web browser and go to http://localhost:8000.
+
+### Upcoming features
+
+- User Authentication: Add user authentication to manage tasks per user.
+- Task Categories: Add categories for tasks.
+- Due Dates: Add due dates for tasks with notifications.
+- Task Comments: Add comments to tasks.
+- File Attachments: Allow file attachments to tasks.
+- API: Add a RESTful API using Django Rest Framework.
+- Improved UI: Enhance the UI with more Material Design components.
+- Notifications: Implement email or SMS notifications for task updates.
