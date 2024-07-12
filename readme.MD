@@ -118,3 +118,11 @@ Open your web browser and go to http://localhost:8000.
 - API: Add a RESTful API using Django Rest Framework.
 - Improved UI: Enhance the UI with more Material Design components.
 - Notifications: Implement email or SMS notifications for task updates.
+
+### Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
