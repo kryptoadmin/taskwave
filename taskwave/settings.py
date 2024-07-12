@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'taskwave.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'taskwave_dev',
+        'USER': 'task_admin',
+        'PASSWORD': 'SystemTask123',
+        'HOST': 'db',
+        'PORT': '5432'
     }
 }
 
