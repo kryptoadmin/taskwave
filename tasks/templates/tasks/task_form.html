@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create/Update Task</h1>
+      <form method="post">
+        {% csrf_token %}
+        <div class="input-field">
+          {{ form.title }}
+          <label for="{{ form.title.id_for_label }}">Title</label>
+        </div>
+        <div class="input-field">
+          {{ form.description }}
+          <label for="{{ form.description.id_for_label }}">Description</label>
+        </div>
+        <div class="input-field">
+          {{ form.priority }}
+          <label for="{{ form.priority.id_for_label }}">Priority</label>
+        </div>
+        <div class="input-field">
+          {{ form.status }}
+          <label for="{{ form.status.id_for_label }}">Status</label>
+        </div>
+        <button type="submit" class="btn">Save</button>
+      </form>
+    </div>
+  </body>
+</html>
